@@ -7,4 +7,13 @@ import Experience from './Experience';
 import Projects from './Projects';
 import Contact from './Contact';
 
-export { Hero, Navbar, About, Tech, Experience, Projects, Contact, BallCanvas };
+export {
+  Hero,
+  Navbar,
+  About,
+  Tech,
+  Experience,
+  Projects,
+  Contact,
+  BallCanvas
+};

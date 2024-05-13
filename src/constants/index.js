@@ -35,8 +35,12 @@ export const navLinks = [
     title: 'About',
   },
   {
-    id: 'projects',
-    title: 'Projects',
+    id: 'tech',
+    title: 'Tech',
+  },
+  {
+    id: 'works',
+    title: 'Works',
   },
   {
     id: 'contact',
@@ -54,12 +58,12 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Project Management',
+    icon: prototyping,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Search Engine Optimization (SEO)',
+    icon: ux,
   },
 ];
 
@@ -85,24 +89,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
   {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
   },
   {
     name: 'postgresql',
@@ -113,10 +105,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
     name: 'docker',
     icon: docker,
   },
@@ -124,32 +112,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Full Stack Software Engineer',
+    company_name: 'Pocket Trader',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Aug 2021 - Present',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'System Analyst',
+    company_name: 'HKT Financial Services',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Jan 2020 - Jul 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'System Analyst',
+    company_name: 'Manulife HK',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Dec 2018 - Dec 2019',
   },
   {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
+    title: 'Analyst Programmer',
+    company_name: 'Kunhne and Nagel',
     icon: dcc,
     iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'Oct 2016 - Nov 2018',
   },
 ];
 
