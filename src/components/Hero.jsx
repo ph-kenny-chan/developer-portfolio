@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { bwmap, worldmap } from '../assets';
 
 const Hero = () => {
   return (
@@ -39,14 +39,13 @@ const Hero = () => {
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               Hi, I'm{' '}
               <span
-                className="sm:text-battleGray sm:text-[90px] 
-                text-eerieBlack text-[50px] font-mova
+                className="text-battleGray sm:text-[90px] text-[50px] font-mova
                 font-extrabold uppercase">
                 KennyChan
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-4 text-eerieBlack`}>
-              Full Stack Software Engineer<br className="sm:block hidden" />
+              Full Stack Software Engineer<br />
               Project Management
               
             </p>
