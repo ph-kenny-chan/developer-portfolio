@@ -18,17 +18,14 @@ import {
   postgresql,
   rubyrails,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   manulife,
   hkt,
   kn,
   pocket_trader,
   mongodb,
+  hktflexi,
+  pt_marketing_site,
+  pt_app,
 } from '../assets';
 
 export const aboutParagraphs = [
@@ -46,6 +43,10 @@ export const navLinks = [
   {
     id: 'tech',
     title: 'Techs',
+  },
+  {
+    id: 'projects',
+    title: 'Proejcts',
   },
   {
     id: 'works',
@@ -165,8 +166,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Pocket Trader',
+    description: 'Forex Social Trading Platform',
     tags: [
       {
         name: 'react',
@@ -181,15 +182,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: pt_app,
+    demo: 'https://pockettrader.app',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Pocket Trader Marketing Website',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Pocket Trader Marketing Website Revamp',
     tags: [
       {
         name: 'react',
@@ -204,14 +204,13 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: pt_marketing_site,
+    demo: 'https://pocket-trader.com',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'HKT Flexi',
+    description: 'HKT Financial Services Loan Application',
     tags: [
       {
         name: 'nextjs',
@@ -226,55 +225,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+    image: hktflexi,
+    demo: 'https://www.hktflexi.com/en/',
+  }
 ];
 
 export { services, technologies, experiences, projects };

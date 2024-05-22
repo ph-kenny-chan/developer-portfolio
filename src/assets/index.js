@@ -43,12 +43,9 @@ import hkt from './company/hkt.png';
 import kn from './company/kn.png';
 import pocket_trader from './company/pocket_trader.png';
 
-import komikult from './projects/komikult.png';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
+import pt_app from './projects/pt_app_sc.png';
+import pt_marketing_site from './projects/ptm_sc.png';
+import hktflexi from './projects/hktflexi.png';
 
 export {
   bwmap,
@@ -87,12 +84,9 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  pt_app,
+  pt_marketing_site,
+  hktflexi,
   manulife,
   hkt,
   kn,
