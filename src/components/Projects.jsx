@@ -31,20 +31,21 @@ const ProjectCard = ({
           window.open(demo, '_blank');
       }}>
       <div
-        className="absolute top-0 left-0 z-10 bg-jetLight 
-      h-full w-full opacity-[0.3] rounded-[24px]"></div>
+        className={`absolute top-0 left-0 z-10 bg-jetLight 
+      h-full w-full ${active === id ? 'opacity-[0.3]' : 'opacity-[0.75]'} rounded-[24px]`}></div>
 
       <img
         src={image}
         alt={name}
-        className="absolute w-full h-full object-cover rounded-[24px] group-hover:opacity-[0.2]"
+        className={`absolute w-full h-full object-cover rounded-[24px] 
+        group-hover:border-4 group-hover:border-green-800 group-hover:transition-all group-hover:duration-500`}
       />
 
       {active !== id ? (
-        <div className="flex items-center justify-start pr-[4.5rem]">
+        <div className="flex xs:items-start lg:items-center xs:justify-end lg:justify-start xs:pl-[1rem] sm:pl-[-0.5rem] lg:pr-[4.5rem]">
           <h3
             className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf drop-shadow-xl tracking-[1px]
+        whitespace-nowrap xs:text-[18px] text-[18px] text-timberWolf drop-shadow-xl tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
             {name.length > 20 ? `${name.slice(0, 20)}...` : name}
@@ -121,11 +122,11 @@ const Projects = () => {
             <div
             className="absolute top-0 left-0 z-10 bg-jetLight 
               h-full w-full opacity-[0.5] rounded-[24px]"></div>
-            <div className="flex items-center justify-start pr-[4.5rem]">
+            <div className="flex xs:items-start lg:items-center xs:justify-end lg:justify-start xs:pl-[1rem] sm:pl-[-0.5rem] lg:pr-[4.5rem]">
               <h3
                 className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
             absolute text-[18px] text-timberWolf tracking-[1px]
-            lg:whitespace-nowrap z-0 lg:text-[18px] lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+            whitespace-nowrap z-0 lg:text-[18px] lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
             leading-none z-20">
                 and numbers of Backend Projects...
               </h3>
