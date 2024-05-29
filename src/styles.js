@@ -1,4 +1,7 @@
 const styles = {
+  black: '',
+  green: 'text-green-800',
+  gray: 'text-battleGray',
   innerWidth: '2xl:max-w-[1280px] w-full',
   interWidth: 'lg:w-[80%] w-[100%]',
 
@@ -12,13 +15,14 @@ const styles = {
   flexStart: 'flex justify-start items-start',
   flexEnd: 'flex justify-end',
   navPadding: 'pt-[98px]',
+  navLink: 'h-1 bg-gray-800 mx-auto transition-all duration-500',
 
   paddingX: 'sm:px-16 px-6',
   paddingY: 'sm:py-16 py-6',
   padding: 'sm:px-16 px-6 sm:py-16 py-10',
 
   heroHeadText:
-    'font-black text-eerieBlack lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2',
+    'font-black text-eerieBlack lg:text-[40px] sm:text-[40px] xs:text-[50px] text-[40px] lg:leading-[90px] mt-2',
   heroSubText:
     'text-eerieBlack font-medium lg:text-[30px] sm:text-[26px] xs:text-[18px] text-[16px] lg:leading-[50px]',
 
@@ -27,9 +31,9 @@ const styles = {
   sectionHeadTextLight:
     'text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
   sectionSubText:
-    'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+    'sm:text-[18px] text-[16px] text-green-800 uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
-    'sm:text-[18px] text-[16px] text-taupe uppercase tracking-wider font-semibold font-poppins',
+    'sm:text-[18px] text-[16px] text-green-800 uppercase tracking-wider font-semibold font-poppins',
 };
 
 export { styles };

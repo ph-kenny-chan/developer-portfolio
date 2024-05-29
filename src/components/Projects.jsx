@@ -124,8 +124,8 @@ const Projects = () => {
             <div className="flex items-center justify-start pr-[4.5rem]">
               <h3
                 className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-            whitespace-nowrap sm:text-[16px] text-[12px] text-timberWolf tracking-[1px]
-            absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
+            absolute text-[18px] text-timberWolf tracking-[1px]
+            lg:whitespace-nowrap z-0 lg:text-[18px] lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
             leading-none z-20">
                 and numbers of Backend Projects...
               </h3>

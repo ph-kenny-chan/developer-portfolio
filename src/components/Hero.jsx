@@ -1,10 +1,26 @@
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Typed from 'typed.js';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
 import { bwmap, worldmap } from '../assets';
+import { useEffect, useRef } from 'react';
 
 const Hero = () => {
+
+  // Create reference to store the DOM element containing the animation
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['a Full-stack Software Engineer', 'a Project Manager', 'a big football fan'],
+      typeSpeed: 70,
+      loop: true,
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <>
       <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
@@ -37,17 +53,16 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Hi, I'm{' '}
+              Hello, My name is{' '}
               <span
                 className="text-battleGray sm:text-[90px] text-[50px] font-mova
                 font-extrabold uppercase">
                 KennyChan
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-4 text-eerieBlack`}>
-              Full Stack Software Engineer<br />
-              Project Management
-              
+            
+            <p className={`${styles.heroSubText} mt-4 text-battleGray`}>
+              <div>I'm{' '}<span className={`${styles.green}`} ref={el} /></div>
             </p>
           </div>
           <div

@@ -39,7 +39,7 @@ const About = () => {
           <motion.p
             variants={fadeIn('', '', 0.1, 1)}
             key={index}
-            className="mt-8 text-taupe text-[18px] max-w-6xl leading-[30px]">
+            className={`mt-8 ${styles.gray} text-[18px] max-w-6xl leading-[30px]`}>
             {paragraph}
           </motion.p>
         )))
