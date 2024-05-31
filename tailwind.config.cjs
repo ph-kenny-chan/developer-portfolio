@@ -33,7 +33,7 @@ export default {
         cardLight: '0px 19px 38px #eaeaec, 0px 15px 12px #eaeaec',
       },
       screens: {
-        xs: '450px',
+        xs: '320px',
         sm: '640px',
         md: '768px',
         xmd: '900px',

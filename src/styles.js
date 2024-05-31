@@ -1,6 +1,6 @@
 const styles = {
   black: '',
-  green: 'text-green-800',
+  green: 'text-[#79C9A4]',
   gray: 'text-battleGray',
   innerWidth: '2xl:max-w-[1280px] w-full',
   interWidth: 'lg:w-[80%] w-[100%]',
@@ -31,9 +31,9 @@ const styles = {
   sectionHeadTextLight:
     'text-timberWolf font-black md:text-[60px] sm:text-[48px] xs:text-[40px] text-[30px] font-poppins',
   sectionSubText:
-    'sm:text-[18px] text-[16px] text-green-800 uppercase tracking-wider font-semibold font-poppins',
+    'sm:text-[18px] text-[16px] text-[#79C9A4] uppercase tracking-wider font-semibold font-poppins',
   sectionSubTextLight:
-    'sm:text-[18px] text-[16px] text-green-800 uppercase tracking-wider font-semibold font-poppins',
+    'sm:text-[18px] text-[16px] text-[#79C9A4] uppercase tracking-wider font-semibold font-poppins',
 };
 
 export { styles };
