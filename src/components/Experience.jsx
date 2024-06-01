@@ -23,7 +23,7 @@ const ExperienceCard = ({ experience }) => (
     }}
     date={
       <div>
-        <h3 className="text-dim text-[18px] font-bold font-beckman">
+        <h3 className={`${styles.green} text-[18px] font-bold font-beckman`}>
           {experience.date}
         </h3>
       </div>
@@ -68,7 +68,7 @@ const Experience = () => {
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
-          {/* <VerticalTimelineElement
+        <VerticalTimelineElement
             contentStyle={{
               background: '#eaeaec',
               color: '#292929',
@@ -86,23 +86,23 @@ const Experience = () => {
               <div className="flex justify-center items-center w-full h-full">
                 <img
                   src={resume}
-                  alt="resume"
+                  alt="cv"
                   className="w-[45%] h-[45%] object-contain"
                 />
               </div>
             }>
             <button
-              className="live-demo flex justify-between 
+              className="live-demo flex justify-center 
               sm:text-[18px] text-[14px] text-timberWolf 
-              font-bold font-beckman items-center py-5 pl-3 pr-3 
-              whitespace-nowrap gap-1 sm:w-[148px] sm:h-[58px] 
-              w-[125px] h-[46px] rounded-[10px] bg-jetLight 
+              font-bold font-beckman items-center py-5 pr-3 
+              whitespace-nowrap gap-1 sm:w-[230px] sm:h-[58px] 
+              w-[230px] h-[46px] rounded-[10px] bg-jetLight 
               sm:mt-[22px] mt-[16px] hover:bg-battleGray 
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  '/public/cv/CV_Kenny_Chan_20240526.pdf', //paste the link to your resume here
                   '_blank'
                 )
               }
@@ -116,7 +116,7 @@ const Experience = () => {
                   .querySelector('.download-btn')
                   .setAttribute('src', download);
               }}>
-              MY RESUME
+              Download My CV
               <img
                 src={download}
                 alt="download"
@@ -124,7 +124,7 @@ const Experience = () => {
                 w-[23px] h-[23px] object-contain"
               />
             </button>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </>

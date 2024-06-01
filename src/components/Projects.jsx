@@ -42,10 +42,9 @@ const ProjectCard = ({
       />
 
       {active !== id ? (
-        <div className="flex items-start lg:items-center justify-end lg:justify-start pl-[6.5rem] sm:pl-[0rem] sm:pr-[20rem] lg:pr-[4.5rem]">
-          <h3
-            className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-        whitespace-nowrap text-[18px] sm:text-[20px] md:text-[21px] lg:text-[22px] text-timberWolf drop-shadow-xl tracking-[1px]
+        <div className="absolute bottom-0 p-8 justify-start w-full flex-col">
+          <h3 className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
+        whitespace-nowrap text-[16px] sm:text-[20px] md:text-[21px] lg:text-[22px] text-timberWolf drop-shadow-xl tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
             {name.length > 20 ? `${name.slice(0, 20)}...` : name}
@@ -122,10 +121,9 @@ const Projects = () => {
             <div
             className="absolute top-0 left-0 z-10 bg-jetLight 
               h-full w-full opacity-[0.5] rounded-[24px]"></div>
-            <div className="flex items-start lg:items-center justify-end lg:justify-start pl-[6.5rem] sm:pl-[0rem] sm:pr-[20rem] lg:pr-[4.5rem]">
-              <h3
-                className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
-            absolute text-[12px] sm:text-[16px] text-timberWolf tracking-[1px]
+            <div className="absolute bottom-0 p-8 justify-start w-full flex-col">
+              <h3 className="font-extrabold font-beckman uppercase w-[200px] h-[30px] 
+            absolute text-[10px] sm:text-[14px] lg:text-[18px] text-timberWolf tracking-[1px]
             whitespace-nowrap z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
             leading-none z-20">
                 and numbers of Backend Projects...
