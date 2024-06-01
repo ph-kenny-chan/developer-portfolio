@@ -21,14 +21,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
+        <ul className="list-none hidden sm:flex flex-row gap-8 mt-2">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? 'text-french' : `${styles.green}`
               } hover:text-taupe text-[16px] font-medium font-mova 
-                uppercase tracking-[3px] cursor-pointer nav-links`}
+                uppercase tracking-[1.5px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
@@ -61,7 +61,7 @@ const Navbar = () => {
                     className={`${
                       active === nav.title ? 'text-french' : `${styles.green}`
                     }  hover:text-taupe text-[35px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                      uppercase tracking-[1.5px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
