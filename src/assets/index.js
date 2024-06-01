@@ -47,7 +47,10 @@ import pt_app from './projects/pt_app_sc.png';
 import pt_marketing_site from './projects/ptm_sc.png';
 import hktflexi from './projects/hktflexi.png';
 
+import mycv from './cv/CV_Kenny_Chan_20240526.pdf';
+
 export {
+  mycv,
   bwmap,
   hongkong,
   whiteabstract,
