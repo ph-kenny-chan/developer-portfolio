@@ -42,12 +42,13 @@ import manulife from './company/manulife.png';
 import hkt from './company/hkt.png';
 import kn from './company/kn.png';
 import pocket_trader from './company/pocket_trader.png';
+import qhms from './company/qhms.png';
 
 import pt_app from './projects/pt_app_sc.png';
 import pt_marketing_site from './projects/ptm_sc.png';
-import hktflexi from './projects/hktflexi.png';
+import hktflexi from './projects/hktflexi.png'; 
 
-import mycv from './cv/CV_Kenny_Chan_20240526.pdf';
+import mycv from './cv/CV_Kenny_Chan.pdf';
 
 export {
   mycv,
@@ -94,4 +95,5 @@ export {
   hkt,
   kn,
   pocket_trader,
+  qhms,
 };

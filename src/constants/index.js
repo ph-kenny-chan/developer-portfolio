@@ -22,6 +22,7 @@ import {
   hkt,
   kn,
   pocket_trader,
+  qhms,
   mongodb,
   hktflexi,
   pt_marketing_site,
@@ -134,33 +135,40 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Senior Application Analyst',
+    company_name: 'Quality HealthCare Medical Services Limited',
+    icon: qhms,
+    iconBg: '#333333',
+    date: 'Apr 2025 - Present'
+  },
+  {
     title: 'Full Stack Software Engineer',
     company_name: 'Pocket Trader',
     icon: pocket_trader,
     iconBg: '#333333',
-    date: 'Aug 2021 - Present',
+    date: 'Aug 2021 - Aug 2024'
   },
   {
     title: 'System Analyst',
     company_name: 'HKT Financial Services',
     icon: hkt,
     iconBg: '#333333',
-    date: 'Jan 2020 - Jul 2021',
+    date: 'Jan 2020 - Jul 2021'
   },
   {
     title: 'System Analyst',
     company_name: 'Manulife HK',
     icon: manulife,
     iconBg: '#333333',
-    date: 'Dec 2018 - Dec 2019',
+    date: 'Dec 2018 - Dec 2019'
   },
   {
     title: 'Analyst Programmer',
     company_name: 'Kunhne and Nagel',
     icon: kn,
     iconBg: '#333333',
-    date: 'Oct 2016 - Nov 2018',
-  },
+    date: 'Oct 2016 - Nov 2018'
+  }
 ];
 
 const projects = [
