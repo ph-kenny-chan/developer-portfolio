@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  portfolio:
+    image: ghcr.io/ph-kenny-chan/developer-portfolio:latest  # GitHub Actions will update this
+    ports:
+      - "8080:8080"  # Change 8080 to 80 if you want direct access on port 80
+    restart: unless-stopped
