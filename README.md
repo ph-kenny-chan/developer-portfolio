@@ -2,9 +2,6 @@
 
 A stylish and customizable portfolio template for developers to showcase their skills, projects, and experiences.
 
-![developer-portfolio](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![developer-portfolio](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
-
 ## Overview
 This portfolio template is designed using modern web technologies and tools, enabling developers to present their work professionally. Feel free to use it, modify it, and make it your own. 
 
